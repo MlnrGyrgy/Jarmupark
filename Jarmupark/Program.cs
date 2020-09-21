@@ -21,7 +21,7 @@ namespace Jarmupark
             Console.WriteLine("Mennyit megy a Lada? ");
             int km = int.Parse(Console.ReadLine());
             lada.Megy(km);
-            lada.Allapot();
+            Console.WriteLine($"{lada.UZEMANYAG} l - {lada.MEGTEHETOKM}");
             
             Console.ReadKey();
         }
